@@ -7,8 +7,7 @@ def home_page(request):
                         '<a href="/about">О нас</a>')
 
 def about_page(request):
-    return HttpResponse('<h1>Какой-нибудь текст</h1><br>'
-                        '<a href="/">На главную</a>')
+    return HttpResponse('')
 
 
 
